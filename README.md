@@ -4,14 +4,16 @@ Proyecto de la asignatura Programación para Analítica de Datos — Universidad
 
 ## El problema
 
-NovaPlas Hogar es una empresa comercializadora de productos plásticos para el hogar, con un portafolio de 1000 SKU. Este proyecto responde la pregunta del caso: **¿qué productos deben comprarse, en qué cantidad, y si la compra es conveniente en costo y presupuesto?**
+NovaPlas Hogar es una empresa comercializadora de productos plásticos para el hogar, con un portafolio de 1000 SKU. Este proyecto responde la pregunta del caso: 
+
+**¿qué productos deben comprarse, en qué cantidad, y si la compra es conveniente en costo y presupuesto?**
 
 ## Cómo ejecutar el notebook
 
-1. Abre `analisis_simple.ipynb` en [Google Colab](https://colab.research.google.com) (subiéndolo directamente o abriéndolo desde GitHub).
+1. Abre `NovaPlas_Hogar.ipynb` en [Google Colab](https://colab.research.google.com) (subiéndolo directamente o abriéndolo desde GitHub).
 2. Corre las celdas en orden, de arriba hacia abajo (Entorno de ejecución → Ejecutar todas).
-3. Los 5 CSV se cargan automáticamente desde este repositorio (no hay que subir nada a mano): el notebook los lee directo desde GitHub usando `pd.read_csv()` sobre la URL "raw" de cada archivo.
-4. Al final, se genera y descarga automáticamente un archivo Excel con la solución (`reporte_compras_novaplas_<fecha>.xlsx`).
+3. Los 5 CSV se cargan automáticamente desde este repositorio: el notebook los lee directo desde GitHub usando `pd.read_csv()` sobre la URL "raw" de cada archivo.
+4. Al final, se genera y descarga automáticamente un archivo Excel con la solución (`Reporte_compras_novaplas_<fecha>.xlsx`).
 
 ## Qué hace el notebook
 
@@ -35,7 +37,7 @@ NovaPlas Hogar es una empresa comercializadora de productos plásticos para el h
 
 ## Fuente de datos
 
-Los 5 archivos CSV en `data/` provienen del caso de estudio "NovaPlas Hogar" de la Actividad 5.
+Los 5 archivos CSV en `data/` provienen del caso de estudio "NovaPlas Hogar".
 
 ## Uso de inteligencia artificial generativa
 
